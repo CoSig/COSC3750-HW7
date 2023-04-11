@@ -16,7 +16,7 @@ RM = /bin/rm -f
 .PHONY: wytalkC clean
 
 wytalk: wytalkC.c socketfun.c
-    ${CC} ${CFLAGS} wytalkC.c socketfun.c -o wytalkC
+	${CC} ${CFLAGS} wytalkC.c socketfun.c -o wytalkC
 
 clean:
-    ${RM} wytalkC
+	${RM} wytalkC
